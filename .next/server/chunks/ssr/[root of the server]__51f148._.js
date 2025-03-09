@@ -79,24 +79,72 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 const metadata = {
-    title: "Garage Guru",
-    description: "AI assistant for BI data analysis"
+    title: "Forux Digital | Soluções de IA para Negócios",
+    description: "Soluções de IA que transformam negócios, reduzem custos e aumentam a eficiência operacional.",
+    icons: {
+        icon: "/favicon.ico",
+        apple: "/apple-icon.png"
+    },
+    openGraph: {
+        title: "Forux Digital | Soluções de IA para Negócios",
+        description: "Agentes de IA e automações que transformam negócios, reduzem custos e aumentam a eficiência operacional.",
+        url: "https://forux.digital",
+        siteName: "Forux Digital",
+        images: [
+            {
+                url: "/og-image.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Forux Digital - Agentes de IA e Automações"
+            }
+        ],
+        locale: "pt_BR",
+        type: "website"
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Forux Digital | Soluções de IA para Negócios",
+        description: "Agentes de IA e automações que transformam negócios, reduzem custos e aumentam a eficiência operacional.",
+        images: [
+            "/twitter-image.jpg"
+        ]
+    },
+    applicationName: "Forux Digital",
+    authors: [
+        {
+            name: "Forux Digital",
+            url: "https://forux.digital"
+        }
+    ],
+    keywords: [
+        "IA",
+        "Inteligência Artificial",
+        "Automação",
+        "Agentes Virtuais",
+        "CRM",
+        "Atendimento",
+        "Vendas",
+        "Chatbot"
+    ],
+    themeColor: "#121640",
+    viewport: "width=device-width, initial-scale=1",
+    robots: "index, follow"
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
-        lang: "en",
+        lang: "pt-BR",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
-            className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_e531dabc$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_68a01160$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} antialiased`,
+            className: `${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_e531dabc$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} ${__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_68a01160$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].variable} antialiased bg-[#0c0f28] text-gray-200`,
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 27,
-            columnNumber: 7
+            lineNumber: 59,
+            columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 26,
-        columnNumber: 5
+        lineNumber: 58,
+        columnNumber: 9
     }, this);
 }
 }}),
