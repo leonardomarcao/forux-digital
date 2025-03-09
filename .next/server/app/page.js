@@ -1,0 +1,13 @@
+const CHUNK_PUBLIC_PATH = "server/app/page.js";
+const runtime = require("../chunks/ssr/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_f40d9d._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__44673e._.js");
+runtime.loadChunk("server/chunks/ssr/src_app_9dffd0._.js");
+runtime.loadChunk("server/chunks/ssr/[project]_Documents_workspace_forux-digital_e038b9._.js");
+runtime.loadChunk("server/chunks/ssr/src_app_7b5a6b._.css");
+runtime.loadChunk("server/chunks/ssr/node_modules_54f559._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_client_components_forbidden-error_5d23ab.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_next_dist_client_components_unauthorized-error_4dc936.js");
+runtime.loadChunk("server/chunks/ssr/[project]_Documents_workspace_forux-digital_9d7956._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/Documents/workspace/forux-digital/.next-internal/server/app/page/actions.js [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/Documents/workspace/forux-digital/node_modules/next/dist/esm/build/templates/app-page.js?page=/page { METADATA_0 => \"[project]/Documents/workspace/forux-digital/src/app/favicon.ico.mjs { IMAGE => \\\"[project]/Documents/workspace/forux-digital/src/app/favicon.ico [app-rsc] (static)\\\" } [app-rsc] (structured image object, ecmascript, Next.js server component)\", MODULE_1 => \"[project]/Documents/workspace/forux-digital/src/app/layout.tsx [app-rsc] (ecmascript, Next.js server component)\", MODULE_2 => \"[project]/Documents/workspace/forux-digital/node_modules/next/dist/client/components/not-found-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_3 => \"[project]/Documents/workspace/forux-digital/node_modules/next/dist/client/components/forbidden-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_4 => \"[project]/Documents/workspace/forux-digital/node_modules/next/dist/client/components/unauthorized-error.js [app-rsc] (ecmascript, Next.js server component)\", MODULE_5 => \"[project]/Documents/workspace/forux-digital/src/app/page.tsx [app-rsc] (ecmascript, Next.js server component)\" } [app-rsc] (ecmascript)", CHUNK_PUBLIC_PATH).exports;

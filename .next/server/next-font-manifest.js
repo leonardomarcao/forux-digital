@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\n  \"app\": {\n    \"[project]/Documents/workspace/forux-digital/src/app/page\": [\n      \"static/media/Geist_Regular-s.p.f915b91b.ttf\",\n      \"static/media/Geist_Bold-s.p.db93ab53.ttf\",\n      \"static/media/Geist_Medium-s.p.097195dd.ttf\"\n    ]\n  },\n  \"appUsingSizeAdjust\": true,\n  \"pages\": {},\n  \"pagesUsingSizeAdjust\": false\n}"

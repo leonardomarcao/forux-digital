@@ -4,31 +4,11 @@ import "./globals.css";
 
 const geistSans = localFont({
     src: [
-        {
-            path: "../../public/fonts/Geist-Regular.ttf",
-            weight: "400",
-            style: "normal",
-        },
-        {
-            path: "../../public/fonts/Geist-Bold.ttf",
-            weight: "700",
-        },
-        {
-            path: "../../public/fonts/Geist-SemiBold.ttf",
-            weight: "600",
-        },
-        {
-            path: "../../public/fonts/Geist-Medium.ttf",
-            weight: "500",
-        },
-        // Add other weights/styles as needed
+        { path: '../../public/fonts/Geist-Regular.ttf', weight: '400' },
+        { path: '../../public/fonts/Geist-Bold.ttf', weight: '700' },
+        { path: '../../public/fonts/Geist-Medium.ttf', weight: '500' },
     ],
-    variable: "--font-geist-sans",
-});
-
-const geistMono = localFont({
-    src: "../../public/fonts/GeistMono-Regular.ttf",
-    variable: "--font-geist-mono",
+    variable: '--font-geist-sans',
 });
 
 export const metadata: Metadata = {
@@ -68,11 +48,9 @@ export const metadata: Metadata = {
     robots: "index, follow",
 };
 
-export default function RootLayout({
-                                       children,
-                                   }: Readonly<{ children: React.ReactNode; }>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable}`}>
+        <html lang="pt-BR" className={`${geistSans.variable}`}>
         <body className="font-sans">{children}</body>
         </html>
     );

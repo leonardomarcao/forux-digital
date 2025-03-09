@@ -1,0 +1,12 @@
+{
+  "app": {
+    "[project]/Documents/workspace/forux-digital/src/app/page": [
+      "static/media/Geist_Regular-s.p.f915b91b.ttf",
+      "static/media/Geist_Bold-s.p.db93ab53.ttf",
+      "static/media/Geist_Medium-s.p.097195dd.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
