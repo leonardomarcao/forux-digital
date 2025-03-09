@@ -635,7 +635,7 @@ const Page = () => {
                                 icon: <Cpu className="w-5 h-5 text-[#4c0bd1]" />,
                             },
                             {
-                                value: "85%",
+                                value: "95%",
                                 label: "Taxa de resolução sem intervenção humana",
                                 icon: <CheckCircle className="w-5 h-5 text-[#e43397]" />,
                             },
@@ -1474,44 +1474,6 @@ const Page = () => {
                                     <span className="text-base">(82) 99838-5111</span>
                                 </a>
                             </motion.div>
-                            <div className="mt-8">
-                                <p className="text-white/70 mb-3">Ou nos encontre nas redes sociais:</p>
-                                <div className="flex items-center gap-5">
-                                    {[
-                                        {
-                                            icon: <Facebook className="w-4 h-4" />,
-                                            label: "Facebook",
-                                            url: "https://www.facebook.com/ForuxDigital/",
-                                        },
-                                        {
-                                            icon: <Instagram className="w-4 h-4" />,
-                                            label: "Instagram",
-                                            url: "https://www.instagram.com/foruxdigital/",
-                                        },
-                                        {
-                                            icon: <Linkedin className="w-4 h-4" />,
-                                            label: "LinkedIn",
-                                            url: "https://www.linkedin.com/company/forux/",
-                                        },
-                                    ].map((social, i) => (
-                                        <motion.a
-                                            key={i}
-                                            href={social.url}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="bg-white/10 hover:bg-white/15 p-2.5 rounded-full transition-all duration-200"
-                                            initial={{ opacity: 0, y: 10 }}
-                                            whileInView={{ opacity: 1, y: 0 }}
-                                            transition={{ delay: 0.4 + i * 0.1 }}
-                                            viewport={{ once: true }}
-                                            whileHover={{ y: -3 }}
-                                            aria-label={social.label}
-                                        >
-                                            {social.icon}
-                                        </motion.a>
-                                    ))}
-                                </div>
-                            </div>
                         </motion.div>
 
                         <motion.div

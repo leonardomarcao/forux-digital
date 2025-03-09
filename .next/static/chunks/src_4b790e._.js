@@ -1609,7 +1609,7 @@ const Page = ()=>{
                                         }, this)
                                     },
                                     {
-                                        value: "85%",
+                                        value: "95%",
                                         label: "Taxa de resolução sem intervenção humana",
                                         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"], {
                                             className: "w-5 h-5 text-[#e43397]"
@@ -3652,93 +3652,6 @@ const Page = ()=>{
                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
                                             lineNumber: 1462,
                                             columnNumber: 29
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "mt-8",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-white/70 mb-3",
-                                                    children: "Ou nos encontre nas redes sociais:"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1478,
-                                                    columnNumber: 33
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center gap-5",
-                                                    children: [
-                                                        {
-                                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__["Facebook"], {
-                                                                className: "w-4 h-4"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                                lineNumber: 1482,
-                                                                columnNumber: 51
-                                                            }, this),
-                                                            label: "Facebook",
-                                                            url: "https://www.facebook.com/ForuxDigital/"
-                                                        },
-                                                        {
-                                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__["Instagram"], {
-                                                                className: "w-4 h-4"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                                lineNumber: 1487,
-                                                                columnNumber: 51
-                                                            }, this),
-                                                            label: "Instagram",
-                                                            url: "https://www.instagram.com/foruxdigital/"
-                                                        },
-                                                        {
-                                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__["Linkedin"], {
-                                                                className: "w-4 h-4"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                                lineNumber: 1492,
-                                                                columnNumber: 51
-                                                            }, this),
-                                                            label: "LinkedIn",
-                                                            url: "https://www.linkedin.com/company/forux/"
-                                                        }
-                                                    ].map((social, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                                                            href: social.url,
-                                                            target: "_blank",
-                                                            rel: "noopener noreferrer",
-                                                            className: "bg-white/10 hover:bg-white/15 p-2.5 rounded-full transition-all duration-200",
-                                                            initial: {
-                                                                opacity: 0,
-                                                                y: 10
-                                                            },
-                                                            whileInView: {
-                                                                opacity: 1,
-                                                                y: 0
-                                                            },
-                                                            transition: {
-                                                                delay: 0.4 + i * 0.1
-                                                            },
-                                                            viewport: {
-                                                                once: true
-                                                            },
-                                                            whileHover: {
-                                                                y: -3
-                                                            },
-                                                            "aria-label": social.label,
-                                                            children: social.icon
-                                                        }, i, false, {
-                                                            fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                            lineNumber: 1497,
-                                                            columnNumber: 41
-                                                        }, this))
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1479,
-                                                    columnNumber: 33
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                            lineNumber: 1477,
-                                            columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
@@ -3759,7 +3672,7 @@ const Page = ()=>{
                                             className: "absolute -inset-3 rounded-xl bg-gradient-to-r from-[#4c0bd1]/10 to-[#e43397]/10 blur-lg"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                            lineNumber: 1524,
+                                            lineNumber: 1486,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3771,12 +3684,12 @@ const Page = ()=>{
                                                         className: "w-12 h-12 text-[#e43397]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                        lineNumber: 1527,
+                                                        lineNumber: 1489,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1526,
+                                                    lineNumber: 1488,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3787,7 +3700,7 @@ const Page = ()=>{
                                                             children: "Um novo nível de atendimento"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                            lineNumber: 1530,
+                                                            lineNumber: 1492,
                                                             columnNumber: 37
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3795,7 +3708,7 @@ const Page = ()=>{
                                                             children: "Nossas soluções impulsionam uma transformação significativa na forma como sua empresa se comunica com clientes."
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                            lineNumber: 1533,
+                                                            lineNumber: 1495,
                                                             columnNumber: 37
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Badge"], {
@@ -3803,25 +3716,25 @@ const Page = ()=>{
                                                             children: "Disponível 24/7"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                            lineNumber: 1537,
+                                                            lineNumber: 1499,
                                                             columnNumber: 37
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1529,
+                                                    lineNumber: 1491,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                            lineNumber: 1525,
+                                            lineNumber: 1487,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                    lineNumber: 1517,
+                                    lineNumber: 1479,
                                     columnNumber: 25
                                 }, this)
                             ]
@@ -3876,12 +3789,12 @@ const Page = ()=>{
                                                         className: "relative h-8"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                        lineNumber: 1559,
+                                                        lineNumber: 1521,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1558,
+                                                    lineNumber: 1520,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3889,13 +3802,13 @@ const Page = ()=>{
                                                     children: "Forux Digital"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1565,
+                                                    lineNumber: 1527,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                            lineNumber: 1557,
+                                            lineNumber: 1519,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3903,7 +3816,7 @@ const Page = ()=>{
                                             children: "Soluções de IA que transformam negócios, reduzem custos e aumentam a eficiência operacional."
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                            lineNumber: 1569,
+                                            lineNumber: 1531,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3919,12 +3832,12 @@ const Page = ()=>{
                                                         className: "w-4 h-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                        lineNumber: 1581,
+                                                        lineNumber: 1543,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1574,
+                                                    lineNumber: 1536,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3937,12 +3850,12 @@ const Page = ()=>{
                                                         className: "w-4 h-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                        lineNumber: 1590,
+                                                        lineNumber: 1552,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1583,
+                                                    lineNumber: 1545,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3955,24 +3868,24 @@ const Page = ()=>{
                                                         className: "w-4 h-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                        lineNumber: 1599,
+                                                        lineNumber: 1561,
                                                         columnNumber: 37
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1592,
+                                                    lineNumber: 1554,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                            lineNumber: 1573,
+                                            lineNumber: 1535,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                    lineNumber: 1551,
+                                    lineNumber: 1513,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3996,7 +3909,7 @@ const Page = ()=>{
                                             children: "Contato"
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                            lineNumber: 1610,
+                                            lineNumber: 1572,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -4009,7 +3922,7 @@ const Page = ()=>{
                                                             className: "w-4 h-4 text-[#e43397]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                            lineNumber: 1613,
+                                                            lineNumber: 1575,
                                                             columnNumber: 37
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4020,13 +3933,13 @@ const Page = ()=>{
                                                             children: "(82) 99838-5111"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                            lineNumber: 1614,
+                                                            lineNumber: 1576,
                                                             columnNumber: 37
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1612,
+                                                    lineNumber: 1574,
                                                     columnNumber: 33
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -4036,7 +3949,7 @@ const Page = ()=>{
                                                             className: "w-4 h-4 text-[#e43397]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                            lineNumber: 1624,
+                                                            lineNumber: 1586,
                                                             columnNumber: 37
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4045,31 +3958,31 @@ const Page = ()=>{
                                                             children: "contato@forux.io"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                            lineNumber: 1625,
+                                                            lineNumber: 1587,
                                                             columnNumber: 37
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                                    lineNumber: 1623,
+                                                    lineNumber: 1585,
                                                     columnNumber: 33
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                            lineNumber: 1611,
+                                            lineNumber: 1573,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                    lineNumber: 1604,
+                                    lineNumber: 1566,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                            lineNumber: 1550,
+                            lineNumber: 1512,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$workspace$2f$forux$2d$digital$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4083,23 +3996,23 @@ const Page = ()=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                                lineNumber: 1637,
+                                lineNumber: 1599,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                            lineNumber: 1636,
+                            lineNumber: 1598,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                    lineNumber: 1549,
+                    lineNumber: 1511,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Documents/workspace/forux-digital/src/app/page.tsx",
-                lineNumber: 1548,
+                lineNumber: 1510,
                 columnNumber: 13
             }, this)
         ]
