@@ -1,5 +1,5 @@
 {
-  "name": "partslens-frontend",
+  "name": "forux-digital",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -40,8 +40,8 @@
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
