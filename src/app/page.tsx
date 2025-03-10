@@ -20,6 +20,8 @@ import {
     ShieldCheck,
     Users,
     Zap,
+    Menu,
+    X,
 } from "lucide-react";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -43,10 +45,38 @@ import {
 
 import { motion, AnimatePresence } from "framer-motion";
 
+const ForuxLogo = ({ className = "h-16 w-16", textColor = "text-white" }) => (
+    <motion.div
+        className="flex items-center gap-2"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.4, delay: 0.1 }}
+    >
+        <div className="relative h-16 w-16">
+            <img
+                src="/forux.svg"
+                alt="Forux Digital Logo"
+                className="relative h-16 w-16"
+            />
+        </div>
+    </motion.div>
+);
+
 const Page = () => {
     const [activeTab, setActiveTab] = useState("receptivo");
     const [scrolledToTop, setScrolledToTop] = useState(true);
     const [mounted, setMounted] = useState(false);
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    // Navigation items
+    const navItems = [
+        { label: "Como Funciona", href: "#como-funciona" },
+        { label: "Integrações", href: "#integracoes" },
+        { label: "Soluções", href: "#solucoes" },
+        { label: "Preços", href: "#precos" },
+        { label: "FAQ", href: "#faq" },
+        { label: "Contato", href: "#contato" },
+    ];
 
     // Detect client-side
     useEffect(() => {
@@ -61,6 +91,11 @@ const Page = () => {
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
+
+    // Close mobile menu on navigation click
+    const handleNavClick = () => {
+        setMobileMenuOpen(false);
+    };
 
     // Animation Variants - Softer with reduced values
     const fadeInUp = {
@@ -123,6 +158,34 @@ const Page = () => {
         },
     };
 
+    // Mobile menu animation
+    const mobileMenuVariants = {
+        closed: {
+            opacity: 0,
+            y: "-100%",
+            transition: {
+                type: "spring",
+                stiffness: 300,
+                damping: 40,
+            },
+        },
+        open: {
+            opacity: 1,
+            y: "0%",
+            transition: {
+                type: "spring",
+                stiffness: 300,
+                damping: 40,
+                staggerChildren: 0.07,
+            },
+        },
+    };
+
+    const mobileNavItemVariants = {
+        closed: { opacity: 0, y: -10 },
+        open: { opacity: 1, y: 0 },
+    };
+
     // Reduced number of particles for cleaner look
     const particles = Array.from({ length: 12 }).map((_, i) => ({
         top: `${(i * 8) % 100}%`,
@@ -162,7 +225,7 @@ const Page = () => {
                 )}
             </AnimatePresence>
 
-            {/* Header - cleaner with improved transition */}
+            {/* Header - updated with menu */}
             <header
                 className={`sticky top-0 z-50 w-full transition-all duration-300 ${
                     scrolledToTop
@@ -170,40 +233,113 @@ const Page = () => {
                         : "border-b border-[#4c0bd1]/10 bg-[#050714]/90 backdrop-blur-md py-4"
                 }`}
             >
-                <div className="container mx-auto px-4 flex items-center justify-between">
-                    <motion.div
-                        className="flex items-center gap-2"
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ duration: 0.4, delay: 0.1 }}
-                    >
-                        <div className="relative h-8 w-8">
-                            <img
-                                src="/forux.svg"
-                                alt="Forux Digital Logo"
-                                className="relative h-8"
-                            />
-                        </div>
-                        <span className="font-semibold text-lg text-white">Forux Digital</span>
-                    </motion.div>
-
-                    {/* Contact Button - improved hover */}
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ type: "spring", stiffness: 80, delay: 0.3 }}
-                    >
-                        <a
-                            href="https://wa.me/5582998385111"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex items-center gap-2 px-4 py-2 rounded-md bg-gradient-to-r from-[#4c0bd1] to-[#e43397] text-white font-medium hover:shadow-md hover:shadow-[#4c0bd1]/20 transition-all duration-200"
+                <div className="container mx-auto px-4">
+                    <div className="flex items-center justify-between">
+                        <motion.div
+                            className="flex items-center"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ duration: 0.4, delay: 0.1 }}
                         >
-                            <Phone className="w-4 h-4" />
-                            Fale Conosco
-                        </a>
-                    </motion.div>
+                            <ForuxLogo />
+                        </motion.div>
+
+                        {/* Desktop Navigation */}
+                        <div className="hidden md:flex items-center space-x-6">
+                            <nav className="flex items-center space-x-6 mr-6">
+                                {navItems.map((item, index) => (
+                                    <motion.a
+                                        key={index}
+                                        href={item.href}
+                                        className="text-gray-300 hover:text-white transition-colors"
+                                        initial={{ opacity: 0, y: -10 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.1 + index * 0.05 }}
+                                    >
+                                        {item.label}
+                                    </motion.a>
+                                ))}
+                            </nav>
+
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                transition={{ type: "spring", stiffness: 80, delay: 0.3 }}
+                            >
+                                <a
+                                    href="https://wa.me/5582998385111"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-2 px-4 py-2 rounded-md bg-gradient-to-r from-[#4c0bd1] to-[#e43397] text-white font-medium hover:shadow-md hover:shadow-[#4c0bd1]/20 transition-all duration-200"
+                                >
+                                    <Phone className="w-4 h-4" />
+                                    Fale Conosco
+                                </a>
+                            </motion.div>
+                        </div>
+
+                        {/* Mobile menu button */}
+                        <div className="md:hidden flex items-center">
+                            <motion.div
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ delay: 0.2 }}
+                            >
+                                <a
+                                    href="https://wa.me/5582998385111"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center mr-4 gap-2 px-3 py-1.5 rounded-md bg-gradient-to-r from-[#4c0bd1] to-[#e43397] text-white text-sm font-medium"
+                                >
+                                    <Phone className="w-3.5 h-3.5" />
+                                    Fale Conosco
+                                </a>
+                            </motion.div>
+                            <button
+                                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                                className="p-2 rounded-md text-white focus:outline-none"
+                            >
+                                {mobileMenuOpen ? (
+                                    <X className="h-6 w-6" />
+                                ) : (
+                                    <Menu className="h-6 w-6" />
+                                )}
+                            </button>
+                        </div>
+                    </div>
                 </div>
+
+                {/* Mobile Navigation Menu */}
+                <AnimatePresence>
+                    {mobileMenuOpen && (
+                        <motion.div
+                            className="fixed inset-x-0 top-[72px] z-50 md:hidden"
+                            initial="closed"
+                            animate="open"
+                            exit="closed"
+                            variants={mobileMenuVariants}
+                        >
+                            <div className="bg-[#050714] shadow-lg border-b border-[#4c0bd1]/20 py-4">
+                                <div className="container mx-auto px-4">
+                                    <nav className="flex flex-col space-y-3">
+                                        {navItems.map((item, index) => (
+                                            <motion.a
+                                                key={index}
+                                                href={item.href}
+                                                className="text-gray-300 hover:text-white py-2 border-b border-[#4c0bd1]/10 transition-colors flex items-center"
+                                                onClick={handleNavClick}
+                                                variants={mobileNavItemVariants}
+                                            >
+                                                <div className="w-1.5 h-1.5 rounded-full bg-[#e43397] mr-3"></div>
+                                                {item.label}
+                                            </motion.a>
+                                        ))}
+                                    </nav>
+                                </div>
+                            </div>
+                        </motion.div>
+                    )}
+                </AnimatePresence>
             </header>
 
             {/* Hero Section - cleaner, darker, with softer animations */}
@@ -1517,16 +1653,7 @@ const Page = () => {
                             transition={{ delay: 0.1 }}
                         >
                             <div className="flex items-center gap-2.5 mb-5">
-                                <div className="relative h-8 w-8">
-                                    <img
-                                        src="/forux.svg"
-                                        alt="Forux Digital Logo"
-                                        className="relative h-8"
-                                    />
-                                </div>
-                                <span className="font-semibold text-lg text-white">
-                  Forux Digital
-                </span>
+                                <ForuxLogo className="h-10" />
                             </div>
                             <p className="mb-5 text-sm">
                                 Soluções de IA que transformam negócios, reduzem custos e aumentam a
